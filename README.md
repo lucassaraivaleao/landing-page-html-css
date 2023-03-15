@@ -3,6 +3,6 @@
 
 
 
-Nesse projeto será abordado conceitos iniciais de html e css como também o ayout flex e o uso de flexibilidade para melhor comodidade nos mais variados aparelhos.
+Nesse projeto será abordado conceitos iniciais de html e css como também o layout flex e o uso de flexibilidade para melhor comodidade nos mais variados aparelhos.
 
 ###### Autor: Lucas Leão 
