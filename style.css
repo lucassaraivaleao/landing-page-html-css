@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root {
+
+    --fonte-primaria: 'Emilys Candy', cursive;
+    --fonte-secundaria: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("img/background-image.png") no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.main__text__title {
+    color: #FFFFFF;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+
+.main__text__title span {
+    color: #FFC700;
+    font-family: var(--fonte-secundaria);
+    font-weight: bold;
+}
+
+.main__text__main {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fonte-primaria);
+    color: #FFC700;
+}
+
+.main__text__paragraph {
+    color: #FFFFFF;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+}
+
+.main__text__links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.main__text__links__readmore {
+    text-decoration: underline;
+    color: #C4C4C4;
+    font-weight: 600;
+}
+
+.main__text__links__button {
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    color: #000000;
+    background-color: #FFC700;
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media(max-width: 376px) {
+
+    body {
+        background: url("img/background-image.png") no-repeat;
+        width: auto;
+        height: auto;
+        /* background-size: cover; */
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        margin-top: 100px;
+        gap: 5px;
+    }
+
+    .main__text__title {
+        font-size: 10px;
+    }
+
+    .main__text__main {
+        font-size: 17px;
+    }
+
+    .main__text__paragraph {
+        font-size: 12px;
+    }
+
+    .main__text__links__readmore {
+        font-size: 12px;
+        text-decoration: underline;
+        color: #C4C4C4;
+        font-weight: 600;
+    }
+    
+    .main__text__links__button {
+        text-decoration: none;
+        padding: 5px 20px 5px 20px;
+        color: #000000;
+        background-color: #FFC700;
+        font-family: var(--fonte-secundaria);
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 474px){
+    body {
+        background: url("img/background-image.png") no-repeat;
+        width: auto;
+        height: auto;
+        /* background-size: cover; */
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        margin-top: 100px;
+        gap: 5px;
+    }
+
+    .main__text__title {
+        font-size: 13px;
+    }
+
+    .main__text__main {
+        font-size: 20px;
+    }
+
+    .main__text__paragraph {
+        font-size: 15px;
+    }
+
+    .main__text__links__readmore {
+        font-size: 17px;
+        text-decoration: underline;
+        color: #C4C4C4;
+        font-weight: 600;
+    }
+    
+    .main__text__links__button {
+        text-decoration: none;
+        padding: 5px 20px 5px 20px;
+        color: #000000;
+        background-color: #FFC700;
+        font-family: var(--fonte-secundaria);
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
